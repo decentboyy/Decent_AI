@@ -5,13 +5,13 @@ from pymongo import MongoClient
 # Initialize the Pyrogram client
 app = pyrogram.Client(
     "my_bot",
-    api_id="YOUR_API_ID",
-    api_hash="YOUR_API_HASH",
-    bot_token="YOUR_BOT_TOKEN"
+    api_id="18654447",
+    api_hash="60ac6f65c766e73dfcc1debef93d06bc",
+    bot_token="5058249365:AAHVL7ozsLYA6N3dHtUTAVkZ3sv_YniZdOk"
 )
 
 # Connect to MongoDB
-mongo_client = MongoClient("YOUR_MONGODB_URL")
+mongo_client = MongoClient("mongodb+srv://abc:abcd@cluster0.0g1g1gt.mongodb.net/?retryWrites=true&w=majority")
 db = mongo_client["chatbot_db"]
 
 # Handler for incoming messages
