@@ -24,7 +24,7 @@ def auto_response(message):
     last_message = last_messages.get(chat_id)
     if last_message:
         # Generate auto-response based on the last message
-        auto_reply = f"Thank you for your message: {last_message.text}"
+        auto_reply = "{last_message.text}"
         bot.reply_to(message, auto_reply)
 
     # Store the current message as the last message for future reference
