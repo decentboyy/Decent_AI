@@ -1,7 +1,0 @@
-- telegram-bot-project/
-  - main.py
-  - requirements.txt
-  - Dockerfile
-  - .gitignore
-  - Procfile
-  - app.json
