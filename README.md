@@ -1,37 +1,7 @@
-# Telegram AI Chatbot
+# LEGEND-CHAT
+This is smooth &amp; fastest chatbot  based on mongo database which work on telegram group & Private Chat
 
-This is a Telegram AI chatbot developed using Pyrogram and MongoDB.
+<details>
 
-## Getting Started
-
-To run the chatbot, follow these steps:
-
-1. Clone the repository:
-git clone https://github.com/your-username/your-repository.git
-
-
-2. Install the dependencies:
-pip install -r requirements.txt
-
-
-3. Configure the bot:
-- Open `main.py` in a text editor.
-- Replace `YOUR_API_ID` with your Telegram API ID.
-- Replace `YOUR_API_HASH` with your Telegram API hash.
-- Replace `YOUR_BOT_TOKEN` with your Telegram bot token.
-- Replace `YOUR_MONGODB_URL` with your MongoDB connection URL.
-
-4. Run the bot:
-
-
-
-'''
-
-## Usage
-
-Once the bot is running, you can interact with it in your Telegram groups. The bot will reply based on the chat history stored in the MongoDB database.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/LEGEND-AI/LEGEND-CHAT"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-pink?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+</details>

@@ -1,0 +1,9 @@
+pyrogram==1.4.16
+pymongo
+requests
+dnspython
+tgcrypto==1.2.2
+asyncio
+git+https://github.com/ITS-LEGENDBOT/py-googletrans
+emoji~=1.6.3
+httpx[http2]

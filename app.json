@@ -1,0 +1,58 @@
+{
+  "name": "LEGEND-CHAT",
+  "description": "Legend Chat Bot is One of the fastest & smoothest bot on Telegram",
+  "logo": "https://telegra.ph/file/ac9bd7bcdac984dd407b2.jpg",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/LEGEND-AI/LEGEND-CHAT",   
+    "env": {
+       "BOT_TOKEN": {
+            "description": "telegram bot token here",
+            "required": true
+        },    
+       "ENV": {
+            "description": "Put anything here",
+            "value": "ANYTHING"
+        },      
+        "MONGO_URL": {
+            "description": "mongo db url here",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "telegram bot username here without @",
+            "required": true
+        },
+        "OWNER_USERNAME": {
+            "description": "Owner Username without @",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "Simple Copy Bot Name. Do not use Modified Text..",
+            "required": true
+        },
+        "STKR": {
+            "description": "Sticker for start ",
+            "required": true
+        },
+        "START_IMG": {
+            "description": "Start Image For Bot.",
+            "required": true
+        },
+        "API_ID": {
+            "description": "telegram api id here",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "telegram api hash here",
+            "required": true
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
