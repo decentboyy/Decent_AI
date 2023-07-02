@@ -81,8 +81,8 @@ START = f"""
 
 DEV_OP = [
     [
-        InlineKeyboardButton(text="🥀 Developer 🥀", url=f"https://t.me/LegendBoy_OP"),
-        InlineKeyboardButton(text="✨ Support ✨", url=f"https://t.me/LegendBot_OP"),
+        InlineKeyboardButton(text="🥀 My Daddy 🥀", url=f"https://t.me/decent_OP"),
+        InlineKeyboardButton(text="✨ Support ✨", url=f"https://t.me/pglpnti_ki_duniya"),
     ],
     [
         InlineKeyboardButton(
@@ -94,8 +94,8 @@ DEV_OP = [
         InlineKeyboardButton(text="🚀 Helps & Cmds 🚀", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="❄️ Source Code ❄️", url=f"https://github.com/LEGEND-AI/BOTCHAT"),
-        InlineKeyboardButton(text="☁️ Updates ☁️", url=f"https://t.me/LegendBot_Update"),
+        InlineKeyboardButton(text="❄️ Source Code ❄️", url=f"https://t.me/Octave_support"),
+        InlineKeyboardButton(text="☁️ Updates ☁️", url=f"https://t.me/Octave_support"),
     ],
 ]
 
@@ -108,7 +108,7 @@ PNG_BTN = [
      ],
      [
          InlineKeyboardButton(text="✨ Support ✨", 
-                              url=f"https://t.me/LegendBot_Group",
+                              url=f"https://t.me/pglpnti_ki_duniya",
          ),
      ],
 ]
@@ -132,7 +132,7 @@ async def restart(client, m: Message):
     )
     
     
-HELP_READ = "**ᴜsᴀɢᴇ ☟︎︎︎**\n**➻ ᴜsᴇ** `/chatbot on` **ᴛᴏ ᴇɴᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**➻ ᴜsᴇ** `/chatbot off` **ᴛᴏ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**๏ ɴᴏᴛᴇ ➻ ʙᴏᴛʜ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ᴄʜᴀᴛ-ʙᴏᴛ ᴏɴ/ᴏғғ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**\n\n**➻ ᴜsᴇ** `/ping` **ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n**© @LegendBot_Owner**"
+HELP_READ = "**ᴜsᴀɢᴇ ☟︎︎︎**\n**➻ ᴜsᴇ** `/chatbot on` **ᴛᴏ ᴇɴᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**➻ ᴜsᴇ** `/chatbot off` **ᴛᴏ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**๏ ɴᴏᴛᴇ ➻ ʙᴏᴛʜ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ᴄʜᴀᴛ-ʙᴏᴛ ᴏɴ/ᴏғғ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**\n\n**➻ ᴜsᴇ** `/ping` **ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n**© [𝔻𝕖𝕔𝕖𝕟𝕥 𝔹𝕠𝕪](https://t.me/Decent_op)**"
 HELP_BACK = [
      [
            InlineKeyboardButton(text="✨ Back ✨", callback_data="HELP_BACK"),
@@ -172,7 +172,7 @@ async def ping(client, message: Message):
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=Config.START_IMG1,
-                             caption=f"нey вαву!!\n**[{Config.BOT_NAME}](t.me/{Config.BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n**мαdє ωιтн ❣️ ву [LegendBoy](https://t.me/LegendBot_Ownep)**",
+                             caption=f"нey вαву!!\n**[{Config.BOT_NAME}](t.me/{Config.BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n**мαdє ωιтн ❣️ ву [𝔻𝕖𝕔𝕖𝕟𝕥 𝔹𝕠𝕪](https://t.me/Decent_op)**",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
@@ -243,7 +243,7 @@ print(f"{BOT_NAME} ɪs ᴀʟɪᴠᴇ!")
 print("----------------")
 print("Starting Bot Mode!")
 print("⚜ Legend Chat Bot Has Been Deployed Successfully ⚜")
-print("OWNER - @LegendBoy_OP")
-print("Group - @LegendBot_XDS")
+print("OWNER - @Decent_OP")
+print("Group - @pglpnti_ki_duniya")
 print("----------------")
 bot.run()
